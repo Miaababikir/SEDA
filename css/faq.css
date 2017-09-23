@@ -1,0 +1,38 @@
+.card
+{
+    border: none;
+    margin-bottom: 10px;
+}
+
+a 
+{
+    color: whitesmoke;
+    text-decoration: none;
+    background-color: transparent;
+}
+a:hover
+{
+ color: #16a085;
+ text-decoration: none;   
+}
+
+.box{
+    margin: 0;
+    padding: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #4c4c4c;
+    color: #FFF;
+}
+
+.card-body {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 1.25rem;
+    background: #ededed;
+}
+
+.fa-square-o:hover
+{
+    color:#16a085;
+}

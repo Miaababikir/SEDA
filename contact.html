@@ -17,10 +17,14 @@
 
     <link rel="stylesheet" href="css/font-awesome.min.css">
       
-      <!--Fontawesome CDN-->
-      <script src="https://use.fontawesome.com/25728312f1.js"></script>
+    <link rel="stylesheet" href="css/animate.css">
+
+    <link href="css/hover.css" rel="stylesheet" media="all">
 
     <link rel="stylesheet" href="css/style.css">
+      
+      <link rel="stylesheet" href="css/contact.css">
+
 
     <!-- Custom styles for this template -->
     <link href="css/modern-business.css" rel="stylesheet">
@@ -58,20 +62,21 @@
       </div>
     </nav>
 
+      
+         
+      <ol class="breadcrumb title-padding"  >
+        <li class="breadcrumb-item">
+          <a href="index.html">Home</a>
+        </li>
+        <li class="breadcrumb-item active" class="fa-contact">Contact</li>
+      </ol>
     <!-- Page Content -->
     <div class="container">
 
       <!-- Page Heading/Breadcrumbs -->
-      <h1 class="mt-4 mb-3">Contact
-        <small>Subheading</small>
-      </h1>
-
-      <ol class="breadcrumb">
-        <li class="breadcrumb-item">
-          <a href="index.html">Home</a>
-        </li>
-        <li class="breadcrumb-item active">Contact</li>
-      </ol>
+      <div class="text-center"><h3 class="title-h3">Contact Us</h3></div>
+            <hr >
+            <br class="empty-space">
 
       <!-- Content Row -->
       <div class="row">
@@ -81,69 +86,63 @@
           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15371.351486440944!2d32.50974551731264!3d15.600308806029378!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x937b0e01a40979bb!2sAlnlen_klah+University+of+Computer+Science+and+Information+Technology!5e0!3m2!1sen!2sus!4v1506159102390" width="100%" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
         </div>
         <!-- Contact Details Column -->
-        <div class="col-lg-4 mb-4">
-          <h3>Contact Details</h3>
-          <p>
-            3481 Melrose Place
-            <br>Beverly Hills, CA 90210
+        <div class="col-lg-4 mb-4 ">
+          <h3 class="site-color">Contact Details : </h3>
+          <p><i class="fa fa-compass fa-lg site-color" aria-hidden="true">  </i>
+            Ali Abdul Lattif St,
+              khartoum,Sudan.
             <br>
           </p>
           <p>
-            <abbr title="Phone">P</abbr>: (123) 456-7890
+            <i class="fa fa-phone-square fa-lg site-color" aria-hidden="true"> </i> 0000000000000
           </p>
           <p>
-            <abbr title="Email">E</abbr>:
+            <i class="fa fa-envelope fa-lg site-color" aria-hidden="true"> </i>
             <a href="mailto:name@example.com">name@example.com
             </a>
           </p>
           <p>
-            <abbr title="Hours">H</abbr>: Monday - Friday: 9:00 AM to 5:00 PM
+            <i class="fa fa-clock-o fa-lg site-color" aria-hidden="true"> </i> Sunday - Thursday: 9:00 AM to 5:00 PM
           </p>
         </div>
       </div>
       <!-- /.row -->
-
-      <!-- Contact Form -->
-      <!-- In order to set the email address and subject line for the contact form go to the bin/contact_me.php file. -->
-      <div class="row">
-        <div class="col-lg-8 mb-4">
-          <h3>Send us a Message</h3>
-          <form name="sentMessage" id="contactForm" novalidate>
-            <div class="control-group form-group">
-              <div class="controls">
-                <label>Full Name:</label>
-                <input type="text" class="form-control" id="name" required data-validation-required-message="Please enter your name.">
-                <p class="help-block"></p>
-              </div>
-            </div>
-            <div class="control-group form-group">
-              <div class="controls">
-                <label>Phone Number:</label>
-                <input type="tel" class="form-control" id="phone" required data-validation-required-message="Please enter your phone number.">
-              </div>
-            </div>
-            <div class="control-group form-group">
-              <div class="controls">
-                <label>Email Address:</label>
-                <input type="email" class="form-control" id="email" required data-validation-required-message="Please enter your email address.">
-              </div>
-            </div>
-            <div class="control-group form-group">
-              <div class="controls">
-                <label>Message:</label>
-                <textarea rows="10" cols="100" class="form-control" id="message" required data-validation-required-message="Please enter your message" maxlength="999" style="resize:none"></textarea>
-              </div>
-            </div>
-            <div id="success"></div>
-            <!-- For success/fail messages -->
-            <button type="submit" class="btn btn-primary">Send Message</button>
-          </form>
-        </div>
-
-      </div>
-      <!-- /.row -->
-
     </div>
+
+    <!-- Contact Us Section -->
+  <section class="contact-us text-center contact-bg">
+    <div class="contact">
+      <i class="fa fa-address-card fa-3x" aria-hidden="true"></i>
+      <h2 class="h1"><span>Contact</span> Us</h2>
+      <div class="lead">Feel Free To Contact Us Anytime</div>
+      <div class="container">
+        <form class="contact-form">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="form-group">
+                <input class="form-control textfaild" type="text" placeholder="Username">
+              </div>
+              <div class="form-group">
+                <input class="form-control textfaild" type="text" placeholder="Email">
+              </div>
+              <div class="form-group">
+                <input class="form-control textfaild" type="text" placeholder="Phone">
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="form-group">
+                <textarea class="form-control input-lg" placeholder="Your Message"></textarea>
+              </div>
+              <button class="btn btn-lg btn-block hvr-shutter-out-vertical">Contact Us</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+  <!-- End Contact Us Section -->
+
+    
     <!-- /.container -->
 
     <!-- Footer -->
@@ -163,6 +162,12 @@
     <!-- Do not edit these files! In order to set the email address and subject line for the contact form go to the bin/contact_me.php file. -->
     <script src="js/jqBootstrapValidation.js"></script>
     <script src="js/contact_me.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script>
+      new WOW().init();
+    </script>
+    <script type="text/javascript" src="js/jquery.nicescroll.min.js"></script>
+    <script src="js/main.js"></script>
 
   </body>
 
