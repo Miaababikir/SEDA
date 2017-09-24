@@ -1,0 +1,74 @@
+/* Contact us Section */
+.contact-us
+{
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.contact-us .contact i
+{
+  color: #16a085;
+  margin-bottom: 15px;
+}
+
+.contact-us .contact h2 span
+{
+  color: #16a085;
+}
+
+.contact-us .contact .contact-form
+{
+  margin-top: 20px;
+}
+
+.contact-us .contact .contact-form .textfaild
+{
+  height: 46px;
+  color: #16a085;
+}
+
+.contact-us .contact .contact-form textarea
+{
+  height: 108px;
+}
+
+.contact-us .contact .btn {
+    color: #16a085;
+    background-color: #fff;
+    border-color: #16a085;
+    border-radius: 0;
+}
+
+.contact-us .contact .btn:hover
+{
+  color: #fff;
+}
+
+.contact-us .contact .hvr-shutter-out-vertical:before
+{
+  background: #16a085;
+}
+
+.contact-bg
+{
+    background: #f2f2f2;
+}
+
+.right-section
+{
+  margin-top: 90px;
+}
+
+.right-section h3
+{
+  font-weight: bold;
+}
+
+.right-section .fa
+{
+  color: #16a085;
+}
+
+
+
+/* End Contact us Section */

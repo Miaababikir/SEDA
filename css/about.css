@@ -1,0 +1,176 @@
+.sub-page-content {
+    display: inline-block;
+    width: 100%;
+    vertical-align: top;
+}
+.pad-bottom-bigger {
+    padding-bottom: 60px !important;
+}
+.pad-top-bigger {
+    padding-top: 60px !important;
+}
+#main, .page-content {
+    vertical-align: top;
+    display: inline-block;
+    width: 100%;
+}
+.wrapper, .owl-wrapper-outer {
+    max-width: 1085px;
+    margin: 0 auto;
+}
+.left-area {
+    width: 250px;
+    margin-bottom: 20px;
+}
+.right-area {
+    width: 810px;
+    margin-top: -5px;
+}
+.carousel{
+    margin: 0 auto;
+}
+.display-3{
+    text-align: center;
+    color: #16a085;
+}
+
+li{
+    color: #16a085;
+    text-decoration: none;
+}
+.left-area li{
+    padding: 15px 0 0;
+    border-bottom: 2px dotted #d5d7d8;
+}
+
+.left-area a:hover{
+    color: #16a085;
+}
+.left-area a
+{
+    text-decoration: none;
+    color: #000101;
+}
+h3.h1{
+    color: #16a085;
+    font-weight: bold;
+}
+h1{
+    color: #16a085;
+}
+.footer-social-listsocial-wrap{
+   height: 10px;
+}
+.social-list{
+    text-align: right;
+}
+.title{
+    max-width: 90%;
+    text-transform: uppercase;
+    font-size: 50px;
+    color: #16a085;
+    display: inline-block;
+    padding: 0px 35px;
+    border: 1px solid #000;
+    min-height: 70px;
+    line-height: 70px;
+    letter-spacing: 2px;
+}
+hr{
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 1px solid #999;
+    border-left: 0;
+    margin: 1.25em 0;
+}
+.info{
+    margin-top: 56px;
+    margin-bottom: 56px;
+}
+.info-title{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.img-block{
+    margin: 20px 0;
+    padding: 20px 0;
+}
+.img-icon{
+    margin: 20px 0;
+}
+
+.title-padding {
+    padding-top: 25px;
+}
+
+/* Start image hover style */
+.info figure
+{
+  width: 400px;
+  border-radius: 3%;
+  margin-bottom: 60px;
+}
+
+.info figcaption
+{
+  padding: 70px 20px;
+}
+
+.info figcaption h2, .info figcaption h3
+{
+  font-weight: bold;
+}
+
+[class*=" imghvr-"] figcaption, [class^=imghvr-] figcaption
+{
+  background: rgba(2, 2, 2, 0.8);
+}
+
+[class*=" imghvr-shutter-out-"]:before, [class^=imghvr-shutter-out-]:before
+{
+    background: none;
+}
+
+/* End image hover style */
+
+/* Start Intro Section */
+.intro
+{
+  padding: 40px 40px;
+}
+
+.intro .right-section
+{
+  padding: 20px;
+}
+
+/* End Intro Section */
+
+/* Start our-team Section */
+.our-team
+{
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.our-team h2
+{
+  font-weight: bold;
+  color: #16a085;
+  margin-bottom: 40px;
+}
+
+.our-team .card .card-body .card-title
+{
+  color: #16a085;
+}
+
+/* Start about-img Section */
+
+/* Start Last Section */
+.last-section .col-sm-4
+{
+  padding-left: 20px;
+  padding-right: 20px;
+}
+/* End Last Section */

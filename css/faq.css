@@ -1,0 +1,49 @@
+.contact
+{
+  background: url('../images/background/bigdata.png') no-repeat center center fixed;
+}
+
+.contact .empty-space
+{
+  margin-bottom: 100px !important;
+}
+
+.contact .card
+{
+    border: none;
+    margin-bottom: 25px;
+}
+
+.contact .card .box a
+{
+    color: whitesmoke;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.contact .card .box a:hover
+{
+ color: #16a085;
+ text-decoration: none;
+}
+
+.contact .box{
+    margin: 0;
+    padding: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #4c4c4c;
+    color: #FFF;
+}
+
+.contact .card-body {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 1.25rem;
+    background: #ededed;
+}
+
+.fa-square-o:hover
+{
+    color:#16a085;
+}

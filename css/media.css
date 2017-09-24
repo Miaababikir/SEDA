@@ -3,35 +3,33 @@
 /* Smart Phons And Tablets */
 @media (max-width: 767px)
 {
-  .navbar-inverse .navbar-nav>li>a
+  .department .card
   {
-    padding-top: 10px;
-    padding-bottom: 10px;
+      margin-bottom: 70px;
   }
 
-  .subscribe .form-control
+  /*.department .circle-green
   {
-    margin: 10px auto;
-    width: 400px;
+    left: 200px;
   }
 
-  .navbar-fixed-bottom .navbar-collapse,
-  .navbar-fixed-top .navbar-collapse
+  .department .circle-red
   {
-    max-height: none;
+    left: 200px;
   }
 
-  .testmonial .carousel-indicators li,
-  .testmonial .carousel-indicators li.active
+  .department .circle-blue
   {
-    width: 50px;
-    height: 50px;
+    left: 200px;
+  }*/
+
+  .news .newsletter .textfaild {
+      padding: 10px 20px;
+      width: 300px;
+      border: none;
+      margin-bottom: 10px;
   }
 
-  .footer .img-align
-  {
-    text-align: center;
-  }
 
 }
 
